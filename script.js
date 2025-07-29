@@ -2,7 +2,7 @@ const config = {
   slots: 18,
   centerX: 400,
   centerY: 400,
-  outerRadius: 480,
+  outerRadius: 450,
   innerRadius: 280,
   gapWidth: 10, // Ширина щели в пикселях
   cornerRadius: 15, // Радиус закругления углов
