@@ -300,8 +300,8 @@ function createSlots() {
     bottomRect.setAttribute('y', rectCenterY - rectHeight / 2);
     bottomRect.setAttribute('width', rectWidth);
     bottomRect.setAttribute('height', rectHeight);
-    bottomRect.setAttribute('rx', 10);
-    bottomRect.setAttribute('ry', 10);
+    bottomRect.setAttribute('rx', 4);
+    bottomRect.setAttribute('ry', 4);
     bottomRect.setAttribute('fill', strokeColor);
 
     const angleDeg = (centerAngle * 180) / Math.PI + 90;
