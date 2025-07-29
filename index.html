@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Визуальная рулетка</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="roulette-container">
+    <svg class="roulette" overflow="visible" viewBox="0 0 800 800">
+      <defs>
+        <filter id="slot-glow" x="-150%" y="-150%" width="400%" height="400%">
+          <feGaussianBlur stdDeviation="50" />
+        </filter>
+        <clipPath id="slot-clip-template">
+          <!-- d будет копироваться динамически в JS -->
+          <path id="clip-path-template" d="" />
+        </clipPath>
+      </defs>
+    </svg>
+  </div>
+
+  <div class="pointer"></div>
+
+  <div class="bottom-panel">
+    <button class="spin-button" onclick="toggleSpin()">ВРАЩАТЬ</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
