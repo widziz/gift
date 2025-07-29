@@ -1,5 +1,5 @@
 const config = {
-  slots: 20,
+  slots: 18,
   centerX: 400,
   centerY: 400,
   outerRadius: 500,
