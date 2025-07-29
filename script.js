@@ -3,7 +3,7 @@ const config = {
   centerX: 400,
   centerY: 400,
   outerRadius: 450,
-  innerRadius: 280,
+  innerRadius: 300,
   gapWidth: 10, // Ширина щели в пикселях
   cornerRadius: 15, // Радиус закругления углов
   prizes: [
